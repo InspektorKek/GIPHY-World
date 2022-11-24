@@ -18,7 +18,7 @@ struct PermissionRequestScreen: View {
         ZStack {
             AnimatedBackground()
                 .edgesIgnoringSafeArea(.all)
-                .blur(radius: 50)
+                .blur(radius: 40)
             
             VStack {
                 Spacer()

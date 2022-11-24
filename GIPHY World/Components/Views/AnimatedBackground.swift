@@ -13,19 +13,19 @@ struct AnimatedBackground: View {
     
     let timer = Timer.publish(every: 1, on: .main, in: .default).autoconnect()
     let colors: [Color] = [
-        .red.opacity(0.3),
-        .purple.opacity(0.3),
-        .blue.opacity(0.3),
-        .orange.opacity(0.3),
-        .green.opacity(0.3),
-        .yellow.opacity(0.3)
+        .red.opacity(0.35),
+        .purple.opacity(0.35),
+        .blue.opacity(0.35),
+        .orange.opacity(0.35),
+        .green.opacity(0.35),
+        .yellow.opacity(0.35)
     ]
     
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: colors), startPoint: start, endPoint: end)
                 .onReceive(timer, perform: { _ in
-                    withAnimation(.easeInOut(duration: 3).repeatForever()) {
+                    withAnimation(.easeInOut(duration: 2).repeatForever()) {
                         self.start = UnitPoint(x: 4, y: 0)
                         self.end = UnitPoint(x: 0, y: 2)
                         self.start = UnitPoint(x: -4, y: 30)

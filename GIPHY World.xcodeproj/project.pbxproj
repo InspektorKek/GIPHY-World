@@ -20,6 +20,7 @@
 		B39C5B63292FCA41005DC256 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B39C5B5E292FCA41005DC256 /* Montserrat-Medium.ttf */; };
 		B39C5B64292FCA41005DC256 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B39C5B5F292FCA41005DC256 /* Montserrat-Regular.ttf */; };
 		B39C5B68292FCAC6005DC256 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C5B67292FCAC6005DC256 /* Font+Extension.swift */; };
+		B39C5B6A292FD37E005DC256 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C5B69292FD37E005DC256 /* ARViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B39C5B5F292FCA41005DC256 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		B39C5B66292FCA60005DC256 /* GIPHY-World-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GIPHY-World-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B39C5B67292FCAC6005DC256 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		B39C5B69292FD37E005DC256 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,6 @@
 		B39C5B42292FAB60005DC256 /* GIPHY World */ = {
 			isa = PBXGroup;
 			children = (
-				B39C5B66292FCA60005DC256 /* GIPHY-World-Info.plist */,
 				B39C5B43292FAB60005DC256 /* AppDelegate.swift */,
 				B39C5B45292FAB60005DC256 /* MainARView.swift */,
 				B39C5B53292FBC94005DC256 /* PermissionRequestScreen.swift */,
@@ -78,8 +79,10 @@
 				B39C5B65292FCA45005DC256 /* Fonts */,
 				B39C5B47292FAB60005DC256 /* Experience.rcproject */,
 				B39C5B49292FAB61005DC256 /* Assets.xcassets */,
+				B39C5B66292FCA60005DC256 /* GIPHY-World-Info.plist */,
 				B39C5B4B292FAB61005DC256 /* Preview Content */,
 				B39C5B5A292FC7E3005DC256 /* Components */,
+				B39C5B69292FD37E005DC256 /* ARViewContainer.swift */,
 			);
 			path = "GIPHY World";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				B39C5B46292FAB60005DC256 /* MainARView.swift in Sources */,
 				B39C5B44292FAB60005DC256 /* AppDelegate.swift in Sources */,
 				B39C5B68292FCAC6005DC256 /* Font+Extension.swift in Sources */,
+				B39C5B6A292FD37E005DC256 /* ARViewContainer.swift in Sources */,
 				B39C5B58292FC7C5005DC256 /* AnimatedBackground.swift in Sources */,
 				B39C5B54292FBC94005DC256 /* PermissionRequestScreen.swift in Sources */,
 				B39C5B48292FAB60005DC256 /* Experience.rcproject in Sources */,
