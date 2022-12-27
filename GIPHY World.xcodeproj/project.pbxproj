@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3415102295094F30033E755 /* PermissionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3415101295094F30033E755 /* PermissionsManager.swift */; };
+		B34151042950961F0033E755 /* PermissionRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34151032950961F0033E755 /* PermissionRequestViewController.swift */; };
+		B3415106295097670033E755 /* UIHostingViewControllerCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3415105295097670033E755 /* UIHostingViewControllerCustom.swift */; };
+		B3415109295097C00033E755 /* PermissionRequestAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3415108295097C00033E755 /* PermissionRequestAssembly.swift */; };
+		B341510B295097F10033E755 /* ArchitectureProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B341510A295097F10033E755 /* ArchitectureProtocols.swift */; };
+		B341510D2950989A0033E755 /* PermissionRequestContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = B341510C2950989A0033E755 /* PermissionRequestContract.swift */; };
+		B360E368295B463300806405 /* PermissionRequestFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B360E367295B463300806405 /* PermissionRequestFlow.swift */; };
 		B39C5B44292FAB60005DC256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C5B43292FAB60005DC256 /* AppDelegate.swift */; };
 		B39C5B46292FAB60005DC256 /* MainARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C5B45292FAB60005DC256 /* MainARView.swift */; };
 		B39C5B48292FAB60005DC256 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B39C5B47292FAB60005DC256 /* Experience.rcproject */; };
 		B39C5B4A292FAB61005DC256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39C5B49292FAB61005DC256 /* Assets.xcassets */; };
 		B39C5B4D292FAB61005DC256 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39C5B4C292FAB61005DC256 /* Preview Assets.xcassets */; };
-		B39C5B54292FBC94005DC256 /* PermissionRequestScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C5B53292FBC94005DC256 /* PermissionRequestScreen.swift */; };
+		B39C5B54292FBC94005DC256 /* PermissionRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C5B53292FBC94005DC256 /* PermissionRequestView.swift */; };
 		B39C5B58292FC7C5005DC256 /* AnimatedBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C5B57292FC7C5005DC256 /* AnimatedBackground.swift */; };
 		B39C5B60292FCA41005DC256 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B39C5B5B292FCA40005DC256 /* Montserrat-ExtraBold.ttf */; };
 		B39C5B61292FCA41005DC256 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B39C5B5C292FCA41005DC256 /* Montserrat-Bold.ttf */; };
@@ -21,16 +28,24 @@
 		B39C5B64292FCA41005DC256 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B39C5B5F292FCA41005DC256 /* Montserrat-Regular.ttf */; };
 		B39C5B68292FCAC6005DC256 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C5B67292FCAC6005DC256 /* Font+Extension.swift */; };
 		B39C5B6A292FD37E005DC256 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C5B69292FD37E005DC256 /* ARViewContainer.swift */; };
+		B3C0B938293624A6009EA272 /* PermissionRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0B937293624A6009EA272 /* PermissionRequestViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3415101295094F30033E755 /* PermissionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsManager.swift; sourceTree = "<group>"; };
+		B34151032950961F0033E755 /* PermissionRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestViewController.swift; sourceTree = "<group>"; };
+		B3415105295097670033E755 /* UIHostingViewControllerCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHostingViewControllerCustom.swift; sourceTree = "<group>"; };
+		B3415108295097C00033E755 /* PermissionRequestAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestAssembly.swift; sourceTree = "<group>"; };
+		B341510A295097F10033E755 /* ArchitectureProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureProtocols.swift; sourceTree = "<group>"; };
+		B341510C2950989A0033E755 /* PermissionRequestContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestContract.swift; sourceTree = "<group>"; };
+		B360E367295B463300806405 /* PermissionRequestFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestFlow.swift; sourceTree = "<group>"; };
 		B39C5B40292FAB60005DC256 /* GIPHY World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIPHY World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39C5B43292FAB60005DC256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B39C5B45292FAB60005DC256 /* MainARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainARView.swift; sourceTree = "<group>"; };
 		B39C5B47292FAB60005DC256 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		B39C5B49292FAB61005DC256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B39C5B4C292FAB61005DC256 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B39C5B53292FBC94005DC256 /* PermissionRequestScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestScreen.swift; sourceTree = "<group>"; };
+		B39C5B53292FBC94005DC256 /* PermissionRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestView.swift; sourceTree = "<group>"; };
 		B39C5B57292FC7C5005DC256 /* AnimatedBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackground.swift; sourceTree = "<group>"; };
 		B39C5B5B292FCA40005DC256 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		B39C5B5C292FCA41005DC256 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
@@ -40,6 +55,7 @@
 		B39C5B66292FCA60005DC256 /* GIPHY-World-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GIPHY-World-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B39C5B67292FCAC6005DC256 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 		B39C5B69292FD37E005DC256 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		B3C0B937293624A6009EA272 /* PermissionRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3415107295097750033E755 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B39C5B67292FCAC6005DC256 /* Font+Extension.swift */,
+				B3415105295097670033E755 /* UIHostingViewControllerCustom.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B39C5B37292FAB60005DC256 = {
 			isa = PBXGroup;
 			children = (
@@ -74,8 +99,12 @@
 			children = (
 				B39C5B43292FAB60005DC256 /* AppDelegate.swift */,
 				B39C5B45292FAB60005DC256 /* MainARView.swift */,
-				B39C5B53292FBC94005DC256 /* PermissionRequestScreen.swift */,
-				B39C5B67292FCAC6005DC256 /* Font+Extension.swift */,
+				B341510C2950989A0033E755 /* PermissionRequestContract.swift */,
+				B3C0B937293624A6009EA272 /* PermissionRequestViewModel.swift */,
+				B360E367295B463300806405 /* PermissionRequestFlow.swift */,
+				B34151032950961F0033E755 /* PermissionRequestViewController.swift */,
+				B39C5B53292FBC94005DC256 /* PermissionRequestView.swift */,
+				B3415108295097C00033E755 /* PermissionRequestAssembly.swift */,
 				B39C5B65292FCA45005DC256 /* Fonts */,
 				B39C5B47292FAB60005DC256 /* Experience.rcproject */,
 				B39C5B49292FAB61005DC256 /* Assets.xcassets */,
@@ -83,6 +112,9 @@
 				B39C5B4B292FAB61005DC256 /* Preview Content */,
 				B39C5B5A292FC7E3005DC256 /* Components */,
 				B39C5B69292FD37E005DC256 /* ARViewContainer.swift */,
+				B3415101295094F30033E755 /* PermissionsManager.swift */,
+				B3415107295097750033E755 /* Extensions */,
+				B341510A295097F10033E755 /* ArchitectureProtocols.swift */,
 			);
 			path = "GIPHY World";
 			sourceTree = "<group>";
@@ -198,13 +230,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B341510B295097F10033E755 /* ArchitectureProtocols.swift in Sources */,
+				B360E368295B463300806405 /* PermissionRequestFlow.swift in Sources */,
+				B3415109295097C00033E755 /* PermissionRequestAssembly.swift in Sources */,
+				B341510D2950989A0033E755 /* PermissionRequestContract.swift in Sources */,
 				B39C5B46292FAB60005DC256 /* MainARView.swift in Sources */,
 				B39C5B44292FAB60005DC256 /* AppDelegate.swift in Sources */,
+				B3C0B938293624A6009EA272 /* PermissionRequestViewModel.swift in Sources */,
 				B39C5B68292FCAC6005DC256 /* Font+Extension.swift in Sources */,
 				B39C5B6A292FD37E005DC256 /* ARViewContainer.swift in Sources */,
+				B34151042950961F0033E755 /* PermissionRequestViewController.swift in Sources */,
+				B3415106295097670033E755 /* UIHostingViewControllerCustom.swift in Sources */,
 				B39C5B58292FC7C5005DC256 /* AnimatedBackground.swift in Sources */,
-				B39C5B54292FBC94005DC256 /* PermissionRequestScreen.swift in Sources */,
+				B39C5B54292FBC94005DC256 /* PermissionRequestView.swift in Sources */,
 				B39C5B48292FAB60005DC256 /* Experience.rcproject in Sources */,
+				B3415102295094F30033E755 /* PermissionsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +378,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "GIPHY-World-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app uses camera to show the cutest GIFs";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -376,7 +416,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "GIPHY-World-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app uses camera to show the cutest GIFs";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;

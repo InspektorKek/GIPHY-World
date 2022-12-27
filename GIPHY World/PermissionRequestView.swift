@@ -1,5 +1,5 @@
 //
-//  PermissionRequestScreen.swift
+//  PermissionRequestView.swift
 //  GIPHY World
 //
 //  Created by Mikhail Borisov on 24/11/22.
@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct PermissionRequestScreen: View {
-    @State private var isARViewPresented = false
+struct PermissionRequestView: View {
+    @ObservedObject var viewModel: PermissionRequestViewModel
     
     @State private var opcityTitle: CGFloat = 0
     @State private var opcityDescription: CGFloat = 0
@@ -52,7 +52,7 @@ struct PermissionRequestScreen: View {
                         }
                     
                     Button {
-                        isARViewPresented.toggle()
+                        viewModel.send(.onAskTapped)
                     } label: {
                         Text("ASK ME ALREADY")
                             .multilineTextAlignment(.center)
@@ -76,14 +76,13 @@ struct PermissionRequestScreen: View {
                 .padding(.bottom, 90)
             }
         }
-        .fullScreenCover(isPresented: $isARViewPresented, content: MainARView.init)
     }
 }
 
 #if DEBUG
-struct PermissionRequestScreen_Previews : PreviewProvider {
+struct PermissionRequestView_Previews : PreviewProvider {
     static var previews: some View {
-        PermissionRequestScreen()
+        PermissionRequestView(viewModel: PermissionRequestViewModel())
     }
 }
 #endif
