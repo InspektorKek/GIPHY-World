@@ -8,7 +8,7 @@
 import UIKit
 
 final class PermissionRequestViewController: UIHostingViewControllerCustom<PermissionRequestView> {
-    weak var delegate: UserContactsContainerDelegate?
+    weak var delegate: PermissionRequestContainerDelegate?
     
     let viewModel: PermissionRequestViewModel
         

@@ -10,7 +10,7 @@ import Combine
 final class PermissionRequestViewModel: ObservableObject {
     @Published private(set) var state: ChannelDetailFlow.ViewState = .idle
     
-    weak var delegate: UserContactsSceneDelegate?
+    weak var delegate: PermissionRequestSceneDelegate?
     
     private let eventSubject = PassthroughSubject<ChannelDetailFlow.Event, Never>()
     private let stateValueSubject = CurrentValueSubject<ChannelDetailFlow.ViewState, Never>(.idle)
@@ -61,6 +61,6 @@ final class PermissionRequestViewModel: ObservableObject {
     }
 }
 
-extension PermissionRequestViewModel: UserContactsContainerDelegate {
+extension PermissionRequestViewModel: PermissionRequestContainerDelegate {
     
 }

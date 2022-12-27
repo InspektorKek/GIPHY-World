@@ -58,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 
-extension AppDelegate: UserContactsSceneDelegate {
+extension AppDelegate: PermissionRequestSceneDelegate {
     func openMainFlow() {
         let mainVC = UIHostingController(rootView: MainARView())
         window?.rootViewController = mainVC

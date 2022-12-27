@@ -8,9 +8,9 @@
 import UIKit
 
 struct PermissionRequestAssembly: SceneAssembly {
-    private let delegate: UserContactsSceneDelegate
+    private let delegate: PermissionRequestSceneDelegate
 
-    init(delegate: UserContactsSceneDelegate) {
+    init(delegate: PermissionRequestSceneDelegate) {
         self.delegate = delegate
     }
     

@@ -52,10 +52,10 @@
 		B39C5B5D292FCA41005DC256 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		B39C5B5E292FCA41005DC256 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		B39C5B5F292FCA41005DC256 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		B39C5B66292FCA60005DC256 /* GIPHY-World-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GIPHY-World-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B39C5B67292FCAC6005DC256 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 		B39C5B69292FD37E005DC256 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		B3C0B937293624A6009EA272 /* PermissionRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestViewModel.swift; sourceTree = "<group>"; };
+		B3F8DDD8295B4D070032A4B5 /* GIPHY-World-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIPHY-World-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +78,91 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		B360E369295B491A00806405 /* PermissionRequest */ = {
+			isa = PBXGroup;
+			children = (
+				B3415108295097C00033E755 /* PermissionRequestAssembly.swift */,
+				B341510C2950989A0033E755 /* PermissionRequestContract.swift */,
+				B34151032950961F0033E755 /* PermissionRequestViewController.swift */,
+				B3C0B937293624A6009EA272 /* PermissionRequestViewModel.swift */,
+				B360E367295B463300806405 /* PermissionRequestFlow.swift */,
+				B39C5B53292FBC94005DC256 /* PermissionRequestView.swift */,
+			);
+			path = PermissionRequest;
+			sourceTree = "<group>";
+		};
+		B360E36A295B492900806405 /* ARView */ = {
+			isa = PBXGroup;
+			children = (
+				B39C5B69292FD37E005DC256 /* ARViewContainer.swift */,
+				B39C5B45292FAB60005DC256 /* MainARView.swift */,
+			);
+			path = ARView;
+			sourceTree = "<group>";
+		};
+		B360E36B295B494A00806405 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B3415101295094F30033E755 /* PermissionsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B360E36C295B495800806405 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				B341510A295097F10033E755 /* ArchitectureProtocols.swift */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		B360E36D295B496B00806405 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				B360E36A295B492900806405 /* ARView */,
+				B360E369295B491A00806405 /* PermissionRequest */,
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		B360E36E295B49A100806405 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B39C5B5A292FC7E3005DC256 /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B360E36F295B49AE00806405 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B360E36E295B49A100806405 /* UI */,
+				B3415107295097750033E755 /* Extensions */,
+				B360E36C295B495800806405 /* Architecture */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B360E370295B49CF00806405 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B39C5B43292FAB60005DC256 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B360E371295B49F000806405 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B39C5B65292FCA45005DC256 /* Fonts */,
+				B39C5B47292FAB60005DC256 /* Experience.rcproject */,
+				B39C5B49292FAB61005DC256 /* Assets.xcassets */,
+				B3F8DDD8295B4D070032A4B5 /* GIPHY-World-Info.plist */,
+				B39C5B4B292FAB61005DC256 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B39C5B37292FAB60005DC256 = {
 			isa = PBXGroup;
 			children = (
@@ -97,24 +182,11 @@
 		B39C5B42292FAB60005DC256 /* GIPHY World */ = {
 			isa = PBXGroup;
 			children = (
-				B39C5B43292FAB60005DC256 /* AppDelegate.swift */,
-				B39C5B45292FAB60005DC256 /* MainARView.swift */,
-				B341510C2950989A0033E755 /* PermissionRequestContract.swift */,
-				B3C0B937293624A6009EA272 /* PermissionRequestViewModel.swift */,
-				B360E367295B463300806405 /* PermissionRequestFlow.swift */,
-				B34151032950961F0033E755 /* PermissionRequestViewController.swift */,
-				B39C5B53292FBC94005DC256 /* PermissionRequestView.swift */,
-				B3415108295097C00033E755 /* PermissionRequestAssembly.swift */,
-				B39C5B65292FCA45005DC256 /* Fonts */,
-				B39C5B47292FAB60005DC256 /* Experience.rcproject */,
-				B39C5B49292FAB61005DC256 /* Assets.xcassets */,
-				B39C5B66292FCA60005DC256 /* GIPHY-World-Info.plist */,
-				B39C5B4B292FAB61005DC256 /* Preview Content */,
-				B39C5B5A292FC7E3005DC256 /* Components */,
-				B39C5B69292FD37E005DC256 /* ARViewContainer.swift */,
-				B3415101295094F30033E755 /* PermissionsManager.swift */,
-				B3415107295097750033E755 /* Extensions */,
-				B341510A295097F10033E755 /* ArchitectureProtocols.swift */,
+				B360E370295B49CF00806405 /* App */,
+				B360E36B295B494A00806405 /* Services */,
+				B360E36F295B49AE00806405 /* Core */,
+				B360E36D295B496B00806405 /* Assemblies */,
+				B360E371295B49F000806405 /* Resources */,
 			);
 			path = "GIPHY World";
 			sourceTree = "<group>";
@@ -372,11 +444,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GIPHY World/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "GIPHY\\ World/Resources/Preview\\ Content";
 				DEVELOPMENT_TEAM = 38BRD9SJV7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "GIPHY-World-Info.plist";
+				INFOPLIST_FILE = "GIPHY World/Resources/GIPHY-World-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_NSCameraUsageDescription = "The app uses camera to show the cutest GIFs";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -410,11 +482,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GIPHY World/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "GIPHY\\ World/Resources/Preview\\ Content";
 				DEVELOPMENT_TEAM = 38BRD9SJV7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "GIPHY-World-Info.plist";
+				INFOPLIST_FILE = "GIPHY World/Resources/GIPHY-World-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_NSCameraUsageDescription = "The app uses camera to show the cutest GIFs";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

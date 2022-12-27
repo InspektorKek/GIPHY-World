@@ -7,11 +7,11 @@
 
 import Foundation
 
-protocol UserContactsContainerDelegate: AnyObject {
+protocol PermissionRequestContainerDelegate: AnyObject {
     
 }
 
-protocol UserContactsSceneDelegate: AnyObject {
+protocol PermissionRequestSceneDelegate: AnyObject {
     func openSettingsAlert(message: String)
     func openMainFlow()
 }
